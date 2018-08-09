@@ -56,11 +56,11 @@ private:
     int mOverlap;
     float mPrevtrig;
     int mBuf;
-    float mPos;
+    double mPos;
     int mBeginbuf;
-    float mBeginpos;
+    double mBeginpos;
     int mEndbuf;
-    float mEndpos;
+    double mEndpos;
     int mPlaying;
 
 
@@ -94,11 +94,11 @@ private:
         int overlap = mOverlap;
         float prevtrig = mPrevtrig;
         int buf = mBuf;
-        float pos = mPos;
+        double pos = mPos;
         int beginbuf = mBeginbuf;
-        float beginpos = mBeginpos;
+        double beginpos = mBeginpos;
         int endbuf = mEndbuf;
-        float endpos = mEndpos;
+        double endpos = mEndpos;
         int playing = mPlaying;
 
         int bufspacing = BUFLEN - overlap;
